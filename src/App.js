@@ -9,7 +9,7 @@ function App() {
             <form className="App">
                 <input type="text" />
                 <input type="email" />
-                <input type="password for" />
+                <input type="password for new" />
                 <input type={"submmit"}
                     style={{ backgroundColor: "#a1eafb" }} />
             </form>
