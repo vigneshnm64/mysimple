@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
- 
+ import Mydata from "./component/Mydata.js/Mydata";
 function App() {
     return (
         <>
@@ -13,6 +13,9 @@ function App() {
                 <input type={"submmit"}
                     style={{ backgroundColor: "#a1eafb" }} />
             </form>
+            <div>
+            <Mydata />
+            </div>
         </>
     );
 }
