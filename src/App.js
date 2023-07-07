@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
     return (
         <>
-            <p className="title">Registration Form</p>
+            <p className="title">Registration Form for the user</p>
  
             <form className="App">
                 <input type="text" />
