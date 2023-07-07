@@ -1,20 +1,20 @@
-import React from 'react'
-import Header from './component/Header'
-import Footer from './component/Footer'
-const App = () => {
-  return (
-    <div>
-    
-    <div>
-    <Header />
-    </div>
-      <p>Hello Kiran Sir doing well</p>
-      <p> hi kiran sir doing well</p>
-      <div>
-      <Footer />
-      </div>
-    </div>
-  )
+import React from "react";
+import "./App.css";
+ 
+function App() {
+    return (
+        <>
+            <p className="title">Registration Form</p>
+ 
+            <form className="App">
+                <input type="text" />
+                <input type="email" />
+                <input type="password" />
+                <input type={"submit"}
+                    style={{ backgroundColor: "#a1eafb" }} />
+            </form>
+        </>
+    );
 }
-
-export default App
+ 
+export default App;
