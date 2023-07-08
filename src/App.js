@@ -7,10 +7,10 @@ function App() {
             <p className="title">Registration Form for the user</p>
  
             <form className="App">
-                <input type="text" />
-                <input type="email" />
-                <input type="password for new" />
-                <input type={"submmitted"}
+                Name<input type="text" />
+                Email<input type="email" />
+                Password<input type="password for new" />
+                Subbmit<input type={"submmitted"}
                     style={{ backgroundColor: "#a1eafb" }} />
             </form>
             <div>
