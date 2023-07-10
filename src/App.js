@@ -7,7 +7,7 @@ function App() {
             <p className="title">Registration Form for the user</p>
  
             <form className="App">
-                Name of<input type="text" />
+                Name of user<input type="text" />
                 Email<input type="email" />
                 Password<input type="password for new" />
                 Subbmit<input type={"submmitted"}
